@@ -334,37 +334,37 @@
     </footer>
     <div class="overlay is-hidden" data-modal >
         <div class="modal">
-            <button class="close-button" type="button" data-modal-close>
-                <svg class="close">
+            <button class="modal__close-button modal__close-button--click" type="button" data-modal-close>
+                <svg class="modal__close-icon">
                     <use href="./images/close-btn.svg#close-btn"></use>
                 </svg>
             </button>
-            <div class="modal-desc"><h3 class="modalwindow-title">Оставьте свои данные, мы вам перезвоним</h3>
-                <form action="" class="modal-form">
+            <div class="modal-window"><h3 class="modal-window__title">Оставьте свои данные, мы вам перезвоним</h3>
+                <form action="" class="modal-window__form">
 
-                <label class="form-name text-name" for="name">Имя</label>
-                <div class="form-field"><input class="input-field" type="text" name="name" id="name" required>
-                <svg class="icon-name modal-icon">
+                <label class="modal-window__form-name" for="name">Имя</label>
+                <div class="modal-window__form-field"><input class="modal-window__input-field" type="text" name="name" id="name" required>
+                <svg class="icon-name modal-window__icon">
                     <use href="./images/symbol-sprite.svg#name"></use>
                 </svg></div>
 
-                <label class="form-name text-phone" for="tel">Телефон</label>
-                <div class="form-field"><input class="input-field" type="tel" name="tel" id="tel" required>
-                <svg class="icon-phone modal-icon">
+                <label class="modal-window__form-name" for="tel">Телефон</label>
+                <div class="modal-window__form-field"><input class="modal-window__input-field" type="tel" name="tel" id="tel" required>
+                <svg class="icon-phone modal-window__icon">
                     <use href="./images/symbol-sprite.svg#phone"></use>
                 </svg></div>
 
-                <label class="form-name text-mail" for="email">Почта</label>
-                <div class="form-field"><input class="input-field" type="email" name="email" id="email">
-                <svg class="icon-mail modal-icon">
+                <label class="modal-window__form-name" for="email">Почта</label>
+                <div class="modal-window__form-field"><input class="modal-window__input-field" type="email" name="email" id="email">
+                <svg class="icon-mail modal-window__icon">
                     <use href="./images/symbol-sprite.svg#mail"></use>
                 </svg></div>
 
-                <label class="form-name text-comment" for="comment">Комментарий</label>
-                <textarea name="comment" id="comment" rows="10" class="form-comment" placeholder="Введите текст"></textarea>
+                <label class="modal-window__form-name" for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" rows="10" class="modal-window__form-comment" placeholder="Введите текст"></textarea>
 
-                <label class="contract"><input class="checkbox" type="checkbox" name="contract" id="contract" required>
-                <span class="checkbox-icon"></span>
+                <label class="modal-window__contract"><input class="modal-window__checkbox" type="checkbox" name="contract" id="contract" required>
+                <span class="modal-window__checkbox-icon"></span>
                 <p class="contract-model">Соглашаюсь с рассылкой и принимаю <a href="" class="contract-link">Условия договора</a></p></label>
                 <button class="modal-submit" type="submit">Отправить</button>
             </form></div>
