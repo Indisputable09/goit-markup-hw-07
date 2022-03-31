@@ -1,4 +1,4 @@
-.footer-logo {
+.footer__logo {
   font-family: "Raleway", cursive;
   font-weight: bold;
   font-size: 26px;
@@ -8,12 +8,12 @@
 
   display: inline-block;
 }
-.footer__logo {
+.footer__logo--external {
   margin-top: 0;
   margin-bottom: 20px;
 }
 .header-logo {
-  @extend .footer-logo;
+  @extend .footer__logo;
   color: #000000;
   margin-right: 93px;
 
@@ -21,6 +21,6 @@
   margin-bottom: 0;
 }
 .header-logo--accent,
-.footer-logo--accent {
+.footer__logo--accent {
   color: #2196f3;
 }
