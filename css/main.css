@@ -1139,8 +1139,8 @@ textarea {
 }
 
 .modal-window__submit {
-  color: var(--button-order-primary-color);
-  background-color: var(--button-order-background-hover-focus-color);
+  color: #ffffff;
+  background-color: #2197f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
