@@ -128,7 +128,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-form__submit--click {
-    @extend .hero__order--click;
+    transform: $btn-transform;
+    transition: $btn-transition;
+
+    &:active {
+        transform: $btn-active;
+    }
 }
 .footer-form__submit::after {
     background-repeat: no-repeat;
