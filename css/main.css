@@ -300,11 +300,12 @@ button {
 }
 
 .details-list__text {
-  color: #212121;
+  color: #757575;
   font-size: 14px;
   line-height: 1.7;
   margin-top: 0;
   margin-bottom: 0;
+  letter-spacing: 0.03em;
 }
 
 .skills {
@@ -466,6 +467,10 @@ button {
 .clients__title {
   margin-top: 0;
   margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 
 .company {
