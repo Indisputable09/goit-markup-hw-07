@@ -125,6 +125,19 @@
             outline: 0;
             border: 1px solid #2196f3;
         }
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus,
+        &:-webkit-autofill:active {
+            transition: background-color 5000s ease-in-out 0s;
+            box-shadow: 0 0 0px 1000px inherit inset;
+            -webkit-text-fill-color: #000000;
+        
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+        }
 }
 .icon-name {
     position: absolute;

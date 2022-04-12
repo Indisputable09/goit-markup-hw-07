@@ -648,6 +648,17 @@ button {
   border: 1px solid #2196f3;
 }
 
+.footer-form__input:-webkit-autofill, .footer-form__input:-webkit-autofill:hover, .footer-form__input:-webkit-autofill:focus, .footer-form__input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-box-shadow: 0 0 0px 1000px inherit inset;
+          box-shadow: 0 0 0px 1000px inherit inset;
+  -webkit-text-fill-color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
 .footer-form__submit {
   color: #ffffff;
   background-color: #2197f3;
@@ -1033,6 +1044,17 @@ button {
 .modal-window__input-field:focus {
   outline: 0;
   border: 1px solid #2196f3;
+}
+
+.modal-window__input-field:-webkit-autofill, .modal-window__input-field:-webkit-autofill:hover, .modal-window__input-field:-webkit-autofill:focus, .modal-window__input-field:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-box-shadow: 0 0 0px 1000px inherit inset;
+          box-shadow: 0 0 0px 1000px inherit inset;
+  -webkit-text-fill-color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .icon-name {
