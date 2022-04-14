@@ -3,8 +3,13 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+// -----Laptop and Desktop
 .footer__container {
-    display: flex;
+    // display: flex;
+    text-align: center;
+}
+.footer__reach {
+    margin-bottom: 60px;
 }
 .footer__address {
     font-size: 14px;
@@ -12,16 +17,22 @@
     font-style: normal;
 
     margin-top: 0;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+
+    // -----Desktop
+    // margin-bottom: 9px;
         .footer__map {color: #ffffff;}
 }
 .footer-list {
     padding: 0;
     margin: 0;
 }
-.footer-list__item--gap {
+.footer-list__item:first-child {
     margin-top: 0;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+
+    // -----Desktop
+    // margin-bottom: 9px;
 }
 .footer-list__connect {
     color: rgba(255, 255, 255, 0.6);
@@ -36,8 +47,10 @@
         }
 }
 .join {
-    margin-left: 70px;
-    margin-top: 12px;
+    margin-bottom: 60px;
+    // ---Desktop
+    // margin-left: 70px;
+    // margin-top: 12px;
 }
 .join__title {
     color: #ffffff;
@@ -51,14 +64,15 @@
 }
 .join__networks {
     display: flex;
-    margin-top: 16px;
+    justify-content: center;
+    margin-top: 0;
     margin-bottom: 0;
 }
 .join__networks--space {
-    @extend .team__networks--space
+    @extend .team__networks--space;
 }
 .join__networks--nospace {
-    @extend .team__networks--nospace
+    @extend .team__networks--nospace;
 }
 .network__link {
   display: flex;
@@ -77,17 +91,24 @@
     }
 }
 .footer-form {
-    margin-left: 93px;
-    margin-top: 12px;
+    
+    // -----Desktop
+    // margin-left: 93px;
+    // margin-top: 12px;
 }
 .footer-form__title {
     display: flex;
-    @extend .join__title
+    justify-content: center;
+    @extend .join__title;
 }
 .footer-form__input {
-    margin-right: 12px;
-    width: 358px;
+    // margin-right: 12px;
+    width: 100%;
     height: 50px;
+    margin-bottom: 20px;
+
+    // ----Desktop
+    width: 358px;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;

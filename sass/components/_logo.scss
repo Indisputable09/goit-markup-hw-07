@@ -12,7 +12,7 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
-.header-logo {
+.header__logo {
   @extend .footer__logo;
   color: #000000;
   margin-right: 93px;
@@ -20,7 +20,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.header-logo--accent,
+.header__logo--accent,
 .footer__logo--accent {
   color: #2196f3;
 }
